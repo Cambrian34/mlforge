@@ -1,0 +1,402 @@
+
+## 1. Linear & Generalized Linear Models
+
+1. Linear Regression
+2. Ridge Regression
+3. Lasso Regression
+4. Elastic Net
+5. Bayesian Ridge Regression
+6. Huber Regression
+7. Theil-Sen Regression
+8. RANSAC Regression
+9. Logistic Regression
+10. Multinomial Logistic Regression
+11. Probit Regression
+12. Poisson Regression
+13. Gamma Regression
+14. Tweedie Regression
+15. Quantile Regression
+16. Generalized Linear Model (GLM)
+17. Generalized Additive Model (GAM)
+18. Partial Least Squares Regression (PLSR)
+19. Partial Least Squares Discriminant Analysis (PLS-DA)
+20. Linear Discriminant Analysis (LDA)
+
+---
+
+## 2. Decision Trees & Rule-Based Models
+
+21. Decision Tree Classifier
+22. Decision Tree Regressor
+23. Extra Trees Classifier
+24. Extra Trees Regressor
+25. Oblique Decision Tree
+26. RuleFit
+27. RIPPER
+28. Decision List
+29. Cubist Regression
+30. CHAID
+
+---
+
+## 3. Ensemble Learning
+
+31. Random Forest
+32. Extremely Randomized Trees
+33. AdaBoost
+34. Gradient Boosting
+35. Histogram-Based Gradient Boosting
+36. XGBoost
+37. LightGBM
+38. CatBoost
+39. Gradient Boosted Decision Trees
+40. Stochastic Gradient Boosting
+41. Voting Classifier
+42. Voting Regressor
+43. Stacking Classifier
+44. Stacking Regressor
+45. Bagging
+46. Random Subspace Method
+47. Random Patches
+48. Isolation Forest
+49. Balanced Random Forest
+50. Rotation Forest
+
+---
+
+## 4. Support Vector Machines
+
+51. Linear SVM
+52. Kernel SVM
+53. Support Vector Classifier (SVC)
+54. Support Vector Regression (SVR)
+55. Nu-SVM
+56. Nu-SVR
+57. One-Class SVM
+58. Least-Squares SVM
+59. Twin Support Vector Machine
+60. Relevance Vector Machine
+
+---
+
+## 5. Nearest-Neighbor Methods
+
+61. K-Nearest Neighbors (KNN)
+62. Radius Neighbors
+63. Weighted KNN
+64. KNN Regression
+65. Nearest Centroid
+66. Locally Weighted Learning
+67. Locally Linear Regression
+68. Learning Vector Quantization (LVQ)
+69. Prototype-Based Classification
+70. Approximate Nearest Neighbor
+
+---
+
+## 6. Bayesian & Probabilistic Models
+
+71. Naive Bayes
+72. Gaussian Naive Bayes
+73. Multinomial Naive Bayes
+74. Bernoulli Naive Bayes
+75. Complement Naive Bayes
+76. Categorical Naive Bayes
+77. Bayesian Network
+78. Gaussian Process Regression
+79. Gaussian Process Classification
+80. Hidden Markov Model (HMM)
+81. Bayesian Linear Regression
+82. Bayesian Logistic Regression
+83. Bayesian Gaussian Mixture Model
+84. Dirichlet Process Mixture Model
+85. Probabilistic Graphical Model
+
+---
+
+## 7. Clustering
+
+86. K-Means
+87. Mini-Batch K-Means
+88. K-Medoids
+89. Fuzzy C-Means
+90. DBSCAN
+91. HDBSCAN
+92. OPTICS
+93. Mean Shift
+94. Affinity Propagation
+95. Spectral Clustering
+96. Agglomerative Hierarchical Clustering
+97. Divisive Hierarchical Clustering
+98. Birch
+99. Gaussian Mixture Model (GMM)
+100. Bayesian Gaussian Mixture
+101. Self-Organizing Map (SOM)
+102. Deep Embedded Clustering
+103. Expectation-Maximization Clustering
+104. Subspace Clustering
+
+---
+
+## 8. Dimensionality Reduction & Feature Learning
+
+105. Principal Component Analysis (PCA)
+106. Kernel PCA
+107. Sparse PCA
+108. Incremental PCA
+109. Truncated SVD
+110. Independent Component Analysis (ICA)
+111. Factor Analysis
+112. Non-Negative Matrix Factorization (NMF)
+113. Linear Discriminant Analysis
+114. Multidimensional Scaling (MDS)
+115. t-SNE
+116. UMAP
+117. Isomap
+118. Locally Linear Embedding (LLE)
+119. Laplacian Eigenmaps
+120. Random Projection
+121. Sparse Random Projection
+122. Autoencoder
+123. Variational Autoencoder (VAE)
+124. Denoising Autoencoder
+125. Contractive Autoencoder
+
+---
+
+# 9. Neural Networks
+
+126. Multilayer Perceptron (MLP)
+127. Feedforward Neural Network
+128. Deep Neural Network
+129. Residual Neural Network (ResNet)
+130. Highway Network
+131. DenseNet
+132. Wide & Deep Network
+133. Siamese Neural Network
+134. Triplet Network
+135. Neural Architecture Search
+136. Mixture-of-Experts Network
+
+---
+
+# 10. Convolutional Neural Networks
+
+137. 1D CNN
+138. 2D CNN
+139. 3D CNN
+140. ResNet
+141. ResNeXt
+142. DenseNet
+143. Inception
+144. GoogLeNet
+145. MobileNet
+146. EfficientNet
+147. ConvNeXt
+148. U-Net
+149. U-Net++
+150. SegNet
+151. Mask R-CNN
+152. Faster R-CNN
+153. YOLO
+154. SSD
+155. RetinaNet
+
+---
+
+# 11. Recurrent & Sequence Models
+
+156. Vanilla RNN
+157. LSTM
+158. Bidirectional LSTM
+159. GRU
+160. Bidirectional GRU
+161. Stacked LSTM
+162. Peephole LSTM
+163. Echo State Network
+164. Elman Network
+165. Jordan Network
+166. Temporal Convolutional Network (TCN)
+167. Neural ODE
+168. Liquid Neural Network
+
+---
+
+# 12. Attention & Transformer Models
+
+169. Transformer
+170. Encoder Transformer
+171. Decoder Transformer
+172. Vision Transformer (ViT)
+173. Swin Transformer
+174. Time-Series Transformer
+175. Temporal Fusion Transformer
+176. Informer
+177. Autoformer
+178. PatchTST
+179. Perceiver
+180. Graph Transformer
+181. Conformer
+182. Performer
+183. Longformer
+184. Reformer
+
+
+
+# 13. Graph Machine Learning
+
+185. Graph Convolutional Network (GCN)
+186. Graph Attention Network (GAT)
+187. GraphSAGE
+188. Graph Isomorphism Network (GIN)
+189. Graph Neural Network (GNN)
+190. Message Passing Neural Network (MPNN)
+191. Relational GCN
+192. ChebNet
+193. Graph Autoencoder
+194. Variational Graph Autoencoder
+195. Graph U-Net
+196. Graph Transformer
+197. Temporal Graph Network
+198. Dynamic Graph Neural Network
+199. Spatio-Temporal GCN
+
+---
+
+# 14. Time-Series & Forecasting
+
+200. Autoregressive Model (AR)
+201. Moving Average Model (MA)
+202. ARMA
+203. ARIMA
+204. SARIMA
+205. VAR
+206. VARMA
+207. Vector Error Correction Model
+208. Exponential Smoothing
+209. Holt-Winters
+210. Prophet
+211. Kalman Filter
+212. Extended Kalman Filter
+213. Unscented Kalman Filter
+214. Gaussian Process Time Series
+215. N-BEATS
+216. N-HiTS
+217. DeepAR
+218. Temporal Fusion Transformer
+
+---
+
+# 15. Spiking / Neuromorphic ML
+
+219. Leaky Integrate-and-Fire (LIF)
+220. Integrate-and-Fire (IF)
+221. Adaptive LIF (ALIF)
+222. Izhikevich Neuron
+223. Hodgkin-Huxley Neuron
+224. Exponential Integrate-and-Fire
+225. Adaptive Exponential Integrate-and-Fire
+226. Spike Response Model
+227. Liquid State Machine
+228. Spiking CNN
+229. Spiking RNN
+230. Spiking LSTM
+231. Spiking Transformer
+232. Spiking Autoencoder
+233. Surrogate Gradient Learning
+234. Spike-Timing-Dependent Plasticity (STDP)
+235. Reward-Modulated STDP
+236. Tempotron
+237. ReSuMe
+238. FORCE Learning for SNNs
+
+---
+
+# 16. Representation / Self-Supervised Learning
+
+239. Contrastive Learning
+240. SimCLR
+241. MoCo
+242. BYOL
+243. SimSiam
+244. VICReg
+245. Barlow Twins
+246. Masked Autoencoder (MAE)
+247. Contrastive Predictive Coding
+248. DeepCluster
+249. Deep InfoMax
+
+---
+
+# 17. Reinforcement Learning
+
+
+250. Q-Learning
+251. SARSA
+252. Expected SARSA
+253. Monte Carlo Control
+254. Temporal Difference Learning
+255. DQN
+256. Double DQN
+257. Dueling DQN
+258. Prioritized Experience Replay
+259. REINFORCE
+260. Actor-Critic
+261. A2C
+262. A3C
+263. PPO
+264. TRPO
+265. DDPG
+266. TD3
+267. SAC
+268. Rainbow DQN
+269. IMPALA
+270. Dreamer
+
+---
+
+# 18. Anomaly Detection
+
+271. Isolation Forest
+272. One-Class SVM
+273. Local Outlier Factor
+274. Elliptic Envelope
+275. Autoencoder Anomaly Detection
+276. Variational Autoencoder Anomaly Detection
+277. Deep SVDD
+278. Robust PCA
+279. Local Outlier Probability
+280. HBOS
+281. COPOD
+282. KNN Anomaly Detection
+
+---
+
+# 19. Evolutionary / Optimization-Based ML
+
+283. Genetic Algorithm
+284. Genetic Programming
+285. Evolution Strategies
+286. Differential Evolution
+287. Particle Swarm Optimization
+288. Ant Colony Optimization
+289. Simulated Annealing
+290. Bayesian Optimization
+291. Hyperband
+292. Successive Halving
+293. Population-Based Training
+
+---
+
+# 20. Recommender Systems
+
+294. Matrix Factorization
+295. Non-Negative Matrix Factorization
+296. Singular Value Decomposition Recommender
+297. Alternating Least Squares
+298. Bayesian Personalized Ranking
+299. Neural Collaborative Filtering
+300. Factorization Machines
+301. Deep Factorization Machines
+302. Wide & Deep Recommender
+303. Neural Matrix Factorization
