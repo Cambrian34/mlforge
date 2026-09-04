@@ -1,0 +1,18 @@
+{
+  "id": "linear_regression",
+  "name": "Linear Regression",
+  "category": "linear",
+  "framework": "sklearn",
+  "tasks": ["regression"],
+  "description": "Ordinary least-squares linear regression.",
+  "sklearn_class": "sklearn.linear_model.LinearRegression",
+  "parameters": {
+    "fit_intercept": {
+      "type": "bool",
+      "default": true,
+      "label": "Fit Intercept",
+      "description": "Whether to calculate the intercept for this model."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

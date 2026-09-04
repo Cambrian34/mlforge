@@ -1,0 +1,21 @@
+{
+  "id": "self_organizing_map_som",
+  "name": "Self-Organizing Map (SOM)",
+  "category": "cluster",
+  "framework": "sklearn",
+  "tasks": [
+    "classification",
+    "regression"
+  ],
+  "description": "Self-Organizing Map (SOM) is a core cluster algorithm in modern machine learning workflows.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

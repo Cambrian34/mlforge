@@ -1,0 +1,21 @@
+{
+  "id": "deep_infomax",
+  "name": "Deep InfoMax",
+  "category": "self-supervised",
+  "framework": "sklearn",
+  "tasks": [
+    "classification",
+    "regression"
+  ],
+  "description": "Deep InfoMax is a core self supervised algorithm in modern machine learning workflows.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

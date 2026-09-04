@@ -1,0 +1,21 @@
+{
+  "id": "u_net",
+  "name": "U-Net",
+  "category": "convolutional-neural-network",
+  "framework": "sklearn",
+  "tasks": [
+    "classification",
+    "regression"
+  ],
+  "description": "U-Net is a core convolutional neural network algorithm in modern machine learning workflows.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

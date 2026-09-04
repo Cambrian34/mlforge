@@ -1,0 +1,61 @@
+{
+  "id": "decision_tree",
+  "name": "Decision Tree",
+  "category": "tree",
+  "framework": "sklearn",
+  "tasks": ["classification", "regression"],
+  "description": "A decision tree that recursively partitions the feature space.",
+  "sklearn_class_classification": "sklearn.tree.DecisionTreeClassifier",
+  "sklearn_class_regression": "sklearn.tree.DecisionTreeRegressor",
+  "parameters": {
+    "max_depth": {
+      "type": "integer",
+      "default": null,
+      "min": 1,
+      "max": 100,
+      "nullable": true,
+      "label": "Max Depth",
+      "description": "Maximum depth of the tree. None means unlimited depth."
+    },
+    "min_samples_split": {
+      "type": "integer",
+      "default": 2,
+      "min": 2,
+      "max": 100,
+      "label": "Min Samples Split",
+      "description": "Minimum samples required to split an internal node."
+    },
+    "min_samples_leaf": {
+      "type": "integer",
+      "default": 1,
+      "min": 1,
+      "max": 100,
+      "label": "Min Samples Leaf",
+      "description": "Minimum samples required to be at a leaf node."
+    },
+    "criterion_classification": {
+      "type": "enum",
+      "values": ["gini", "entropy", "log_loss"],
+      "default": "gini",
+      "label": "Criterion (Classification)",
+      "description": "Function to measure the quality of a split for classification.",
+      "task_filter": "classification"
+    },
+    "criterion_regression": {
+      "type": "enum",
+      "values": ["squared_error", "friedman_mse", "absolute_error", "poisson"],
+      "default": "squared_error",
+      "label": "Criterion (Regression)",
+      "description": "Function to measure the quality of a split for regression.",
+      "task_filter": "regression"
+    },
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used for reproducibility."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

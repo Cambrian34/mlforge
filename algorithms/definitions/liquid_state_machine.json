@@ -1,0 +1,21 @@
+{
+  "id": "liquid_state_machine",
+  "name": "Liquid State Machine",
+  "category": "spiking",
+  "framework": "sklearn",
+  "tasks": [
+    "classification",
+    "regression"
+  ],
+  "description": "Liquid State Machine is a core spiking algorithm in modern machine learning workflows.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

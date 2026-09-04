@@ -1,0 +1,21 @@
+{
+  "id": "graph_isomorphism_network_gin",
+  "name": "Graph Isomorphism Network (GIN)",
+  "category": "graph-learning",
+  "framework": "sklearn",
+  "tasks": [
+    "classification",
+    "regression"
+  ],
+  "description": "Graph Isomorphism Network (GIN) is a core graph learning algorithm in modern machine learning workflows.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

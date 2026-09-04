@@ -1,0 +1,20 @@
+{
+  "id": "subspace_clustering",
+  "name": "Subspace Clustering",
+  "category": "cluster",
+  "framework": "sklearn",
+  "tasks": [
+    "clustering"
+  ],
+  "description": "Clustering algorithm that groups similar samples together without requiring labeled targets.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

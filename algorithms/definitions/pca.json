@@ -1,0 +1,27 @@
+{
+  "id": "pca",
+  "name": "Principal Component Analysis (PCA)",
+  "category": "dimensionality-reduction",
+  "framework": "sklearn",
+  "tasks": [
+    "dimensionality_reduction"
+  ],
+  "description": "Dimensionality reduction method that compresses feature space while preserving the signal most useful for downstream learning.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    },
+    "n_components": {
+      "type": "integer",
+      "default": 2,
+      "min": 1,
+      "label": "Number of Components",
+      "description": "Target dimensionality after projection or embedding."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "singular_value_decomposition_recommender",
+  "name": "Singular Value Decomposition Recommender",
+  "category": "recommender",
+  "framework": "sklearn",
+  "tasks": [
+    "classification",
+    "regression"
+  ],
+  "description": "Singular Value Decomposition Recommender is a core recommender algorithm in modern machine learning workflows.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

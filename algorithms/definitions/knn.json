@@ -1,0 +1,42 @@
+{
+  "id": "knn",
+  "name": "K-Nearest Neighbors",
+  "category": "instance-based",
+  "framework": "sklearn",
+  "tasks": ["classification", "regression"],
+  "description": "Non-parametric method that classifies or predicts based on the k closest training examples.",
+  "sklearn_class_classification": "sklearn.neighbors.KNeighborsClassifier",
+  "sklearn_class_regression": "sklearn.neighbors.KNeighborsRegressor",
+  "parameters": {
+    "n_neighbors": {
+      "type": "integer",
+      "default": 5,
+      "min": 1,
+      "max": 500,
+      "label": "Neighbors (k)",
+      "description": "Number of neighbors to use."
+    },
+    "weights": {
+      "type": "enum",
+      "values": ["uniform", "distance"],
+      "default": "uniform",
+      "label": "Weights",
+      "description": "Weight function used in prediction."
+    },
+    "algorithm": {
+      "type": "enum",
+      "values": ["auto", "ball_tree", "kd_tree", "brute"],
+      "default": "auto",
+      "label": "Algorithm",
+      "description": "Algorithm used to compute the nearest neighbors."
+    },
+    "metric": {
+      "type": "enum",
+      "values": ["minkowski", "euclidean", "manhattan", "chebyshev"],
+      "default": "minkowski",
+      "label": "Distance Metric",
+      "description": "Distance metric to use."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

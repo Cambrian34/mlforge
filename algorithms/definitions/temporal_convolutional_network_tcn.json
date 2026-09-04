@@ -1,0 +1,21 @@
+{
+  "id": "temporal_convolutional_network_tcn",
+  "name": "Temporal Convolutional Network (TCN)",
+  "category": "sequence-model",
+  "framework": "sklearn",
+  "tasks": [
+    "classification",
+    "regression"
+  ],
+  "description": "Temporal Convolutional Network (TCN) is a core sequence model algorithm in modern machine learning workflows.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

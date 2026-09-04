@@ -1,0 +1,21 @@
+{
+  "id": "dynamic_graph_neural_network",
+  "name": "Dynamic Graph Neural Network",
+  "category": "graph-learning",
+  "framework": "sklearn",
+  "tasks": [
+    "classification",
+    "regression"
+  ],
+  "description": "Dynamic Graph Neural Network is a core graph learning algorithm in modern machine learning workflows.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

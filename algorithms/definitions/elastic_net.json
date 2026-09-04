@@ -1,0 +1,42 @@
+{
+  "id": "elastic_net",
+  "name": "Elastic Net",
+  "category": "linear",
+  "framework": "sklearn",
+  "tasks": ["regression"],
+  "description": "Linear regression combining L1 and L2 regularization.",
+  "sklearn_class": "sklearn.linear_model.ElasticNet",
+  "parameters": {
+    "alpha": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.0001,
+      "max": 1000.0,
+      "label": "Regularization Strength",
+      "description": "Overall strength of the regularization."
+    },
+    "l1_ratio": {
+      "type": "float",
+      "default": 0.5,
+      "min": 0.0,
+      "max": 1.0,
+      "label": "L1 Ratio",
+      "description": "Mixing parameter between L1 and L2 regularization."
+    },
+    "fit_intercept": {
+      "type": "bool",
+      "default": true,
+      "label": "Fit Intercept",
+      "description": "Whether to fit the intercept of the model."
+    },
+    "max_iter": {
+      "type": "integer",
+      "default": 1000,
+      "min": 1,
+      "max": 100000,
+      "label": "Max Iterations",
+      "description": "Maximum number of iterations for the solver."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "knn_regression",
+  "name": "KNN Regression",
+  "category": "instance-based",
+  "framework": "sklearn",
+  "tasks": [
+    "regression"
+  ],
+  "description": "Regression or forecasting model used to estimate continuous targets or future values from historical data.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    },
+    "n_neighbors": {
+      "type": "integer",
+      "default": 5,
+      "min": 1,
+      "label": "Neighbors (k)",
+      "description": "Number of neighboring samples used for prediction."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

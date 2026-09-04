@@ -1,0 +1,20 @@
+{
+  "id": "gaussian_naive_bayes",
+  "name": "Gaussian Naive Bayes",
+  "category": "bayesian",
+  "framework": "sklearn",
+  "tasks": ["classification"],
+  "description": "Naive Bayes classifier assuming a Gaussian distribution for each feature.",
+  "sklearn_class": "sklearn.naive_bayes.GaussianNB",
+  "parameters": {
+    "var_smoothing": {
+      "type": "float",
+      "default": 1e-09,
+      "min": 1e-12,
+      "max": 1e-04,
+      "label": "Variance Smoothing",
+      "description": "Portion of the largest variance of all features added to variances for stability."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

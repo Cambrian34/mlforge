@@ -1,0 +1,34 @@
+{
+  "id": "lasso_regression",
+  "name": "Lasso Regression",
+  "category": "linear",
+  "framework": "sklearn",
+  "tasks": ["regression"],
+  "description": "Linear regression with L1 regularization that can shrink coefficients to zero.",
+  "sklearn_class": "sklearn.linear_model.Lasso",
+  "parameters": {
+    "alpha": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.0001,
+      "max": 1000.0,
+      "label": "Regularization Strength",
+      "description": "Strength of the L1 regularization."
+    },
+    "fit_intercept": {
+      "type": "bool",
+      "default": true,
+      "label": "Fit Intercept",
+      "description": "Whether to fit the intercept of the model."
+    },
+    "max_iter": {
+      "type": "integer",
+      "default": 1000,
+      "min": 1,
+      "max": 100000,
+      "label": "Max Iterations",
+      "description": "Maximum number of iterations for the solver."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

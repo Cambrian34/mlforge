@@ -1,0 +1,44 @@
+{
+  "id": "gradient_boosting",
+  "name": "Gradient Boosting",
+  "category": "ensemble",
+  "framework": "sklearn",
+  "tasks": ["classification", "regression"],
+  "description": "Sequential additive model that fits weak learners to residual errors.",
+  "sklearn_class_classification": "sklearn.ensemble.GradientBoostingClassifier",
+  "sklearn_class_regression": "sklearn.ensemble.GradientBoostingRegressor",
+  "parameters": {
+    "n_estimators": {
+      "type": "integer",
+      "default": 100,
+      "min": 1,
+      "max": 5000,
+      "label": "Number of Estimators",
+      "description": "The number of boosting stages to perform."
+    },
+    "learning_rate": {
+      "type": "float",
+      "default": 0.1,
+      "min": 0.0001,
+      "max": 10.0,
+      "label": "Learning Rate",
+      "description": "Weight applied to each tree in the ensemble."
+    },
+    "max_depth": {
+      "type": "integer",
+      "default": 3,
+      "min": 1,
+      "max": 20,
+      "label": "Max Depth",
+      "description": "Maximum depth of regression estimators."
+    },
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed for reproducibility."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

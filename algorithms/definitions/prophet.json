@@ -1,0 +1,20 @@
+{
+  "id": "prophet",
+  "name": "Prophet",
+  "category": "time-series",
+  "framework": "sklearn",
+  "tasks": [
+    "regression"
+  ],
+  "description": "Regression or forecasting model used to estimate continuous targets or future values from historical data.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

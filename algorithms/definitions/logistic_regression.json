@@ -1,0 +1,41 @@
+{
+  "id": "logistic_regression",
+  "name": "Logistic Regression",
+  "category": "linear",
+  "framework": "sklearn",
+  "tasks": ["classification"],
+  "description": "Logistic regression classifier.",
+  "sklearn_class": "sklearn.linear_model.LogisticRegression",
+  "parameters": {
+    "C": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.0001,
+      "max": 10000.0,
+      "label": "Regularization (C)",
+      "description": "Inverse of regularization strength. Smaller = stronger regularization."
+    },
+    "max_iter": {
+      "type": "integer",
+      "default": 1000,
+      "min": 1,
+      "max": 10000,
+      "label": "Max Iterations",
+      "description": "Maximum number of iterations for the solver."
+    },
+    "solver": {
+      "type": "enum",
+      "values": ["lbfgs", "liblinear", "saga", "newton-cg"],
+      "default": "lbfgs",
+      "label": "Solver",
+      "description": "Algorithm for optimization."
+    },
+    "fit_intercept": {
+      "type": "bool",
+      "default": true,
+      "label": "Fit Intercept",
+      "description": "Whether to calculate the intercept."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

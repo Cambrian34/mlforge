@@ -1,0 +1,21 @@
+{
+  "id": "hidden_markov_model_hmm",
+  "name": "Hidden Markov Model (HMM)",
+  "category": "bayesian",
+  "framework": "sklearn",
+  "tasks": [
+    "classification",
+    "regression"
+  ],
+  "description": "Hidden Markov Model (HMM) is a core bayesian algorithm in modern machine learning workflows.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

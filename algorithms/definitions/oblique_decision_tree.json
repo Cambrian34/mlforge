@@ -1,0 +1,28 @@
+{
+  "id": "oblique_decision_tree",
+  "name": "Oblique Decision Tree",
+  "category": "tree",
+  "framework": "sklearn",
+  "tasks": [
+    "classification",
+    "regression"
+  ],
+  "description": "Tree-based learner that partitions the data into interpretable decision rules.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    },
+    "n_estimators": {
+      "type": "integer",
+      "default": 100,
+      "min": 1,
+      "label": "Number of Estimators",
+      "description": "Number of base learners combined in the ensemble."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

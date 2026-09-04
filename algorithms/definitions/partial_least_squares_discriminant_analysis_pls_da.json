@@ -1,0 +1,21 @@
+{
+  "id": "partial_least_squares_discriminant_analysis_pls_da",
+  "name": "Partial Least Squares Discriminant Analysis (PLS-DA)",
+  "category": "linear",
+  "framework": "sklearn",
+  "tasks": [
+    "classification",
+    "regression"
+  ],
+  "description": "Partial Least Squares Discriminant Analysis (PLS-DA) is a core linear algorithm in modern machine learning workflows.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

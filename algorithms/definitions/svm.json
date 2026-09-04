@@ -1,0 +1,50 @@
+{
+  "id": "svm",
+  "name": "Support Vector Machine",
+  "category": "kernel",
+  "framework": "sklearn",
+  "tasks": ["classification", "regression"],
+  "description": "Support Vector Machine classifier (SVC) and regressor (SVR).",
+  "sklearn_class_classification": "sklearn.svm.SVC",
+  "sklearn_class_regression": "sklearn.svm.SVR",
+  "parameters": {
+    "C": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.0001,
+      "max": 10000.0,
+      "label": "Regularization (C)",
+      "description": "Penalty parameter. Higher = less regularization."
+    },
+    "kernel": {
+      "type": "enum",
+      "values": ["rbf", "linear", "poly", "sigmoid"],
+      "default": "rbf",
+      "label": "Kernel",
+      "description": "Kernel function to use."
+    },
+    "degree": {
+      "type": "integer",
+      "default": 3,
+      "min": 1,
+      "max": 10,
+      "label": "Degree (Poly kernel)",
+      "description": "Degree of the polynomial kernel function."
+    },
+    "gamma": {
+      "type": "enum",
+      "values": ["scale", "auto"],
+      "default": "scale",
+      "label": "Gamma",
+      "description": "Kernel coefficient for rbf/poly/sigmoid."
+    },
+    "max_iter": {
+      "type": "integer",
+      "default": -1,
+      "min": -1,
+      "label": "Max Iterations",
+      "description": "Hard limit on iterations. -1 = no limit."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}

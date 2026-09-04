@@ -1,0 +1,20 @@
+{
+  "id": "random_projection",
+  "name": "Random Projection",
+  "category": "dimensionality-reduction",
+  "framework": "sklearn",
+  "tasks": [
+    "dimensionality_reduction"
+  ],
+  "description": "Dimensionality reduction method that compresses feature space while preserving the signal most useful for downstream learning.",
+  "parameters": {
+    "random_state": {
+      "type": "integer",
+      "default": 42,
+      "min": 0,
+      "label": "Random State",
+      "description": "Seed used to make stochastic training reproducible."
+    }
+  },
+  "template": "sklearn/model.py.jinja"
+}
